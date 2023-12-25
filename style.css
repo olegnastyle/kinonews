@@ -91,6 +91,8 @@ ul {
     &:active {filter: brightness(.8);}
 }
 
+/* Разделы сайтов */
+
 #news {
     display: flex;
     justify-content: space-between;
@@ -105,6 +107,22 @@ ul {
     gap: 10px;
     margin: 20px 0;
 }
+
+#info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+/* Дополнительыне стили к разделам */
 
 .new-decription {
     display: flex;
@@ -138,4 +156,12 @@ ul {
         -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
         box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     }
+}
+
+.up {
+    text-decoration: none !important;
+    background-color: chocolate;
+    color: aliceblue;
+    padding: 10px 15px;
+    &:hover {background-color: tomato;transition: all .1s linear;}
 }
